@@ -15,7 +15,7 @@ class ChatGptController extends Controller
             'prompt' => $input,
             'max_tokens' => 100
         ], [
-            'Authorization' => 'Bearer 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'
+            'Authorization' => 'Bearer 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'
         ]);
 
         return response()->json($response->json());
